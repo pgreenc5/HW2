@@ -1,0 +1,73 @@
+x = 1
+y = 4
+z
+source("~/.active-rstudio-document")
+t = c(1, 3, 5)
+v <- c(1.6, 2.1, 1.5, 1.9)
+v
+names(v) <- c("S1", "S2", "S3", "S4"
+v
+names(v) <- c("S1", "S2", "S3", "S4"
+type
+#Characters
+s <- c("a", "BBB", "TCGA", "1", "2.1")
+class(s)
+as.numeric("2")
+lv <- c(TRUE, FALSE, TRUE)
+sum(lv)
+lv <- c(TRUE, FALSE, TRUE)
+m <- Matrix(nrow = 2, ncol = 3)
+m <- matrix(nrow = 2, ncol = 3)
+m
+dim(m)
+attributes(m)
+mtcars[1, 2] #selecting a specific cell
+mtcars #built-in data set
+mtcars$mpg
+dim(mtcars)
+ncol(mtcars)
+head(mtcars)
+rownames(mtcars)
+colnames(mtcars)
+sd(mtcars$mpg)
+sd(mtcars$cyl)
+colMeans(mtcars)
+colMeans(mtcars)
+colMeans(mtcars)
+df[df$cyl==Mazda,]
+df[df$cyl==6,]
+df(mtcars([df$cyl==6,])
+df(mtcars([df$cyl == 6,])
+df(mtcars([df$cyl == mazda,])
+rownames(mtcars)
+rownames(mtcars)[1]
+colnames(mtcars)[3]
+rownames(mtcars)[3]
+rownames(mtcars)[1]
+rownames(mtcars)[1],
+rownames(mtcars)[1],column(mtcars)[2]
+column(mtcars)[2]
+dimnames(mtcars)[1]
+dimnames(mtcars)[1] <- "Mazda RX4"
+rownames(mtcars)[1] <- "Mazda RX4"
+column(mtcars)[2]
+col(mtcars)[2]
+col(mtcars)[3]
+col(mtcars)mpg,[3]
+mtcars[cyl]
+mtcars$cyl
+mtcars$cyl[1]
+rownames(mtcars)[1]
+mtcars$cyl[1]
+df1=data.frame(Name=c('James','Paul','Richards','Marico','Samantha','Ravi','Raghu',
+'Richards','George','Ema','Samantha','Catherine'),
+State=c('Alaska','California','Texas','North Carolina','California','Texas',
+'Alaska','Texas','North Carolina','Alaska','California','Texas'),
+Sales=c(14,24,31,12,13,7,9,31,18,16,18,14))
+aggregate(df1$Sales, by=list(df1$State), FUN=sum)
+library(dplyr)
+df1 %>% group_by(State) %>% summarise(sum_sales = sum(Sales))
+q()
+#1. Run the following lines and study how they work. Then state what they do and output for us. (20 Points)
+save.image("C:\\Users\\Patrick Green\\Desktop\\CSC302\\HW2")
+save.image("C:\\Users\\Patrick Green\\Desktop\\CSC302\\HW2")
